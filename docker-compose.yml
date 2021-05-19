@@ -5,7 +5,7 @@ version: '3'
 services:
   rtmp:
     #restart: always
-    image: mailbyms/rtmp
+    image: mailbyms/nginx-rtmp
     environment:
       - "TZ=Asia/Shanghai"
     volumes:
