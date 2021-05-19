@@ -1,0 +1,15 @@
+
+# 注意,如果要映射/data目录，先 mkdir -p data/video
+
+version: '3'
+services:
+  rtmp:
+    #restart: always
+    image: mailbyms/rtmp
+    environment:
+      - "TZ=Asia/Shanghai"
+    volumes:
+      - ./logs:/usr/local/nginx/logs
+      - ./data:/data
+    ports:
+      - 1935:1935
