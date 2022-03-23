@@ -1,5 +1,5 @@
 
->更推荐使用 [SRS](https://github.com/ossrs/srs)，有官方镜像，有集群、http-flv、h5-webrtc 等
+>**更推荐使用 [SRS](https://github.com/ossrs/srs)，有官方镜像，有集群、http-flv、h5、webrtc 等**
 
 # nginx-rtmp
 RTMP服务器：nginx with nginx-rtmp-module
